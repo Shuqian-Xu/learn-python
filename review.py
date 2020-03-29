@@ -18,3 +18,10 @@ sumLength = 0
 for d in data:
     sumLength += len(d)
 print("The average is", sumLength / len(data))
+
+new = []
+for d in data:
+    if len(d) < 100:
+        new.append(d)
+print("The number of comments under 100 lines is", len(new))
+print(new[0])
