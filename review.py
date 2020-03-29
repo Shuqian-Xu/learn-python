@@ -25,3 +25,10 @@ for d in data:
         new.append(d)
 print("The number of comments under 100 lines is", len(new))
 print(new[0])
+
+good = []
+for d in data:
+    if "good" in d:
+        good.append(d)
+print("The number of comments containing good is", len(good))
+print(good[0])
