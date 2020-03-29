@@ -1,6 +1,10 @@
 import random
 
-r = random.randint(1, 100)
+left = input("Please input the lower range: ")
+right = input("Please input the upper range: ")
+left = int(left)
+right = int(right)
+r = random.randint(left, right)
 count = 0
 
 while True:
